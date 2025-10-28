@@ -25,7 +25,7 @@ const Upload = () => {
         if (!auth?.isAuthenticated) {
             setIsProcessing(false);
             setStatusText('Please sign in to analyze your resume');
-            navigate('/auth');
+            navigate('/auth?next=/upload');
             return;
         }
 
