@@ -1,87 +1,48 @@
-# Welcome to React Router!
+<h1 align="center">💼 AI Resume Analyzer</h1>
 
-A modern, production-ready template for building full-stack React applications using React Router.
+<p align="center">
+  <em>Analyze resumes with AI to get ATS scores, smart job matching, and instant feedback — built with React, TypeScript, and Puter.js.</em>
+</p>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+<p align="center">
+  <a href="https://resumai-eosin.vercel.app/auth?next=/"><strong>🚀 Live Demo</strong></a> •
+  <a href="#features">Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#quick-start">Quick Start</a>
+</p>
 
 ---
 
-Built with ❤️ using React Router.
+## ✨ Introduction
+
+**AI Resume Analyzer** is a web app that evaluates resumes using AI models to provide personalized feedback, ATS-style scoring, and keyword optimization.  
+The app helps users understand how their resumes perform against job descriptions and provides smart recommendations for improvement.
+
+Originally built following a YouTube tutorial, this version includes extended features, UI improvements, authentication, and resume scoring logic — turning it into a more complete and practical project.
+
+---
+
+## ⚙️ Tech Stack
+
+- **[React](https://react.dev/)** – Frontend framework for building dynamic UIs  
+- **[React Router v7](https://reactrouter.com/)** – Client-side routing  
+- **[TypeScript](https://www.typescriptlang.org/)** – Type safety and cleaner code  
+- **[Puter.js](https://jsm.dev/resumind-puterjs)** – File management and user auth  
+- **[Tailwind CSS](https://tailwindcss.com/)** – Modern utility-first styling  
+- **[Zustand](https://github.com/pmndrs/zustand)** – Lightweight state management  
+- **[Vite](https://vite.dev/)** – Fast development build tool  
+
+---
+
+## 🔋 Features
+
+- 🤖 **AI Resume Evaluation** – Analyze resumes using AI and receive customized feedback  
+- 🧠 **Smart Scoring** – Get ATS-based scores and keyword optimization tips  
+- 🪄 **Job Match Recommendations** – Compare your resume to specific job listings  
+- 📤 **Resume Upload** – Upload and store PDF resumes using Puter.js  
+- 🎨 **Responsive UI** – Built with Tailwind CSS for a clean and adaptive design  
+- 🔐 **User Authentication** – Simple, secure login using Puter.js auth  
+- 💾 **Local State Management** – Zustand for smooth, predictable app state  
+- ⚡ **Fast Development Setup** – Vite ensures instant builds and reloads  
+
+---
