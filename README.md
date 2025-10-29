@@ -8,7 +8,6 @@
   <a href="https://resumai-eosin.vercel.app/auth?next=/"><strong>🚀 Live Demo</strong></a> •
   <a href="#features">Features</a> •
   <a href="#tech-stack">Tech Stack</a> •
-  <a href="#quick-start">Quick Start</a>
 </p>
 
 ---
